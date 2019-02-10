@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
-import { Model, TodoItem } from "./model"; 
+import { Model, TodoItem } from "./model";
+import { DiscountService } from "./discount.service"; 
 
 @Component({
  selector: "todo-app",
